@@ -10,7 +10,7 @@ const GAS_URL =
 const PASSWORD_INPUT = "rafstudio"; // password sederhana untuk menu Input Data
 const AUTH_KEY = "medali_auth"; // key sessionStorage
 
-const MITRA_LIST = ["AA Kreatif", "Hanandhya", "Nakaba", "Zahraquds"];
+const MITRA_LIST = ["AA Kreatif", "Hanandhya", "Nakaba", "Sally", "Zahraquds"];
 const PRODUK_LIST = ["Medali Resin", "Medali Logam"];
 
 const SECTION_TITLES = {
