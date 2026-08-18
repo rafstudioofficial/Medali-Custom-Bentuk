@@ -634,7 +634,7 @@ function handleFotoFileChange(e) {
 /** Ambang batas: file di bawah ini pakai cara lama (base64 lewat POST) —
  *  simpel & cepat, tidak butuh sesi upload terpisah. Di atas ambang ini,
  *  otomatis pakai upload langsung ke Drive (lihat uploadFileMasterDirect()). */
-const MAX_FILE_MASTER_DIRECT_BASE64 = 5 * 1024 * 1024; // 5MB
+const MAX_FILE_MASTER_DIRECT_BASE64 = 20 * 1024 * 1024; // 5MB
 /** Batas atas realistis supaya tidak upload file yang kelewat besar tanpa sadar. */
 const MAX_FILE_MASTER_UPLOAD_SIZE = 200 * 1024 * 1024; // 200MB
 
